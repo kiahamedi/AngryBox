@@ -1,14 +1,14 @@
 # AngryBox
-> simple project with arduino uno for birthday gift
+> simple project with arduino uno for birthday gift<br>
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ![alt text](https://raw.githubusercontent.com/kiahamedi/AngryBox/master/wallpaperForNow.jpg)
 
-Items needed:
-1- arduino uno board
-2- two serv motor microServ 9G
-3- toggle swich 6a125vac
-4- Box :D
+Items needed:<br>
+1- arduino uno board<br>
+2- two serv motor microServ 9G<br>
+3- toggle swich 6a125vac<br>
+4- Box :D<br>
 
 ## This project is in the works
 
