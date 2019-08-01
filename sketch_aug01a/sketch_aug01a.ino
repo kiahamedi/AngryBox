@@ -34,22 +34,35 @@ void loop() {
     for (pos = 0; pos <= 180; pos += 1) { // goes from 0 degrees to 180 degrees
     // in steps of 1 degree
       keyserv.write(pos);              // tell servo to go to position in variable 'pos'
-      delay(5);                       // waits 15ms for the servo to reach the position
+      delay(5);                       // waits 5ms for the servo to reach the position
     }
+    digitalWrite(LED,LOW);
+    delay(100); 
+    digitalWrite(LED,HIGH);
     for (pos = 180; pos >= 0; pos -= 1) { // goes from 180 degrees to 0 degrees
       keyserv.write(pos);              // tell servo to go to position in variable 'pos'
-      delay(5);                       // waits 15ms for the servo to reach the position
+      delay(5);                       // waits 5ms for the servo to reach the position
     }
-
+    digitalWrite(LED,LOW);
+    delay(100); 
+    digitalWrite(LED,HIGH);
+    delay(200);
+    digitalWrite(LED,LOW);
+    delay(100); 
+    digitalWrite(LED,HIGH);
     for (pos = 0; pos <= 180; pos += 1) { // goes from 0 degrees to 180 degrees
     // in steps of 1 degree
       doorserv.write(pos);              // tell servo to go to position in variable 'pos'
-      delay(5);                       // waits 15ms for the servo to reach the position
+      delay(5);                       // waits 5ms for the servo to reach the position
     }
+    digitalWrite(LED,LOW);
+    delay(100); 
+    digitalWrite(LED,HIGH);
     for (pos = 180; pos >= 0; pos -= 1) { // goes from 180 degrees to 0 degrees
       doorserv.write(pos);              // tell servo to go to position in variable 'pos'
-      delay(5);                       // waits 15ms for the servo to reach the position
+      delay(5);                       // waits 5ms for the servo to reach the position
     }
+    digitalWrite(LED,LOW);
     
    
   }else
